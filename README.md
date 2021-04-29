@@ -9,5 +9,10 @@ Il y a trois dossiers majeurs:
 La racine du projet contiendra des scripts mais aussi les fichiers à booté.
 ### Comment boot sur kvm
 ```Linux
-commande
+kvm -m 1024 -kernel cheminNoyau -initrd cheminInitrd -append "options noyau et initramfs" -display vnc=:1 
+Option:
+- console=ttyS0
+
+Dans un autre terminal
+vncviewer :1
 ```
