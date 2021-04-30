@@ -2,8 +2,8 @@
 BorvOS est une distribution GNU/Linux minimal crée par des étudiants français.
 ----
 ### Organisation de l'arborescence
-- build: servira à mettre tous les fichiers sources des différents programmes
-- kernel: qui contiendra les source du kernel Linux
+- build: servira à mettre tous les fichiers sources des différents programmes (ne pas suivre dans git)
+- kernel: qui contiendra les source du kernel Linux (ne pas suivre dans git)
 - rootbase: qui contiendra l'arborescence du système.
 La racine du projet contiendra des scripts mais aussi les fichiers à booter.
 ### Comment boot sur kvm
