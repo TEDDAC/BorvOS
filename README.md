@@ -1,5 +1,5 @@
 # BorvOS
-BorvOS est une distribution GNU/Linux minimal crée par des étudiants français.
+BorvOS est une distribution GNU/Linux minimale créée par des étudiants français.
 ----
 ### Organisation de l'arborescence
 - build: servira à mettre tous les fichiers sources des différents programmes (ne pas suivre dans git)
