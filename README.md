@@ -18,3 +18,12 @@ Dans un autre terminal
 ```
 vncviewer :1
 ```
+----
+## Contenu à venir
+Voici ici les programme qui pourront être implentés
+- Server X: Xorg
+- Gestionnaire de fenêtre: 
+- Gestionnaire de session: LightDM
+- Environnement de bureau: XFCE
+- Terminal: 
+- Explorateur de fichier: Nemo
