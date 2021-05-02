@@ -1,0 +1,10 @@
+Ici sont décrits tous les problèmes rencontrés, et comment ils ont été résolu.
+syntax:
+
+Message d'erreur
+solution
+
+Message d'erreur
+...
+
+====================================================

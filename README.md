@@ -8,15 +8,7 @@ BorvOS est une distribution GNU/Linux minimale créée par des étudiants franç
 La racine du projet contiendra des scripts mais aussi les fichiers à booter.
 ### Comment boot sur kvm
 ```Linux
-kvm -m 1024 -kernel [cheminNoyau] -initrd [chemin initramfs] -append "options noyau" -display vnc=:1 
-```
-Option:
-- console=ttyS0
-- initrd=[programme d'init]
-
-Dans un autre terminal lancez la commande suivante, après avoir installer le paquet [xtightvncviewer](apt://xtightvncviewer)
-```
-vncviewer :1
+kvm -m 1024 -kernel ./bzImage -initrd ./RIM.cpio.gz -nographic -append "console=ttyS0" 
 ```
 ----
 ## Contenu à venir
