@@ -8,3 +8,5 @@ Message d'erreur
 ...
 
 ====================================================
+
+/bin/sh: can't access tty: job control turned off
