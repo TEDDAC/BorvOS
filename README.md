@@ -14,7 +14,7 @@ Option:
 - console=ttyS0
 - initrd=[programme d'init]
 
-Dans un autre terminal
+Dans un autre terminal lancez la commande suivante, après avoir installer le paquet xtightvncviewer
 ```
 vncviewer :1
 ```
