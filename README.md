@@ -11,9 +11,11 @@ La racine du projet contiendra des scripts mais aussi les fichiers à booter.
 kvm -m 1024 -kernel ./bzImage -initrd ./RIM.cpio.gz -nographic -append "console=ttyS0" 
 ```
 Pour fermez kvm: Ctrl+a puis x
+
 ----
 ### Instruction de travail en équipe
-Git a des difficulté à gerer certains type de fichier et les dossiers. Il faut donc, après avoir mis à jour votre version local, décompressé RIM.cpio.gz dans un dossier rootbase.
+Git a des difficulté à gerer certains type de fichier et les dossiers. Il faut donc, après avoir mis à jour votre version local, décompressé RIM.cpio.gz dans un dossier rootbase.3
+
 ----
 ## Contenu à venir
 Voici ici les programme qui pourront être implentés
